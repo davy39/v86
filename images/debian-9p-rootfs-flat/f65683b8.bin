@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/openvswitch-pki
+/usr/share/doc/openvswitch-pki/changelog.Debian.gz
+/usr/share/doc/openvswitch-pki/copyright
+/var
+/var/lib
+/var/lib/openvswitch

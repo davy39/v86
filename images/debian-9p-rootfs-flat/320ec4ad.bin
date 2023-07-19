@@ -1,0 +1,14 @@
+[Unit]
+Description=Open vSwitch
+After=openvswitch-nonetwork.service
+Requires=openvswitch-nonetwork.service
+Before=networking.service
+
+[Service]
+Type=oneshot
+ExecStart=/etc/init.d/openvswitch-switch start
+ExecStop=/etc/init.d/openvswitch-switch stop
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

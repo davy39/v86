@@ -1,0 +1,14 @@
+/.
+/etc
+/etc/default
+/etc/default/openvswitch-testcontroller
+/etc/init.d
+/etc/init.d/openvswitch-testcontroller
+/etc/openvswitch-testcontroller
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/openvswitch-testcontroller
+/usr/share/doc/openvswitch-testcontroller/README.Debian
+/usr/share/doc/openvswitch-testcontroller/changelog.Debian.gz
+/usr/share/doc/openvswitch-testcontroller/copyright

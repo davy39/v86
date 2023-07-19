@@ -1,0 +1,68 @@
+Generating a RSA private key
+............................................+++++
+.......................................................+++++
+writing new private key to 'private/cakey.pem'
+-----
+Using configuration from ca.cnf
+Check that the request matches the signature
+Signature ok
+Certificate Details:
+        Serial Number: 1 (0x1)
+        Validity
+            Not Before: Jul 19 08:33:04 2023 GMT
+            Not After : Jul 16 08:33:04 2033 GMT
+        Subject:
+            countryName               = US
+            stateOrProvinceName       = CA
+            organizationName          = Open vSwitch
+            organizationalUnitName    = controllerca
+            commonName                = OVS controllerca CA Certificate (2023 Jul 19 08:33:04)
+Certificate is to be certified until Jul 16 08:33:04 2033 GMT (3650 days)
+
+Write out database with 1 new entries
+Data Base Updated
+Generating a RSA private key
+...........................+++++
+........................+++++
+writing new private key to 'private/cakey.pem'
+-----
+Using configuration from ca.cnf
+Check that the request matches the signature
+Signature ok
+Certificate Details:
+        Serial Number: 1 (0x1)
+        Validity
+            Not Before: Jul 19 08:33:05 2023 GMT
+            Not After : Jul 16 08:33:05 2033 GMT
+        Subject:
+            countryName               = US
+            stateOrProvinceName       = CA
+            organizationName          = Open vSwitch
+            organizationalUnitName    = switchca
+            commonName                = OVS switchca CA Certificate (2023 Jul 19 08:33:04)
+Certificate is to be certified until Jul 16 08:33:05 2033 GMT (3650 days)
+
+Write out database with 1 new entries
+Data Base Updated
+Generating RSA private key, 2048 bit long modulus (2 primes)
+.............................................................................+++++
+.......................................................+++++
+e is 65537 (0x010001)
+Using configuration from ca.cnf
+Check that the request matches the signature
+Signature ok
+Certificate Details:
+        Serial Number: 2 (0x2)
+        Validity
+            Not Before: Jul 19 08:33:07 2023 GMT
+            Not After : Jul 16 08:33:07 2033 GMT
+        Subject:
+            countryName               = US
+            stateOrProvinceName       = CA
+            organizationName          = Open vSwitch
+            organizationalUnitName    = Open vSwitch certifier
+            commonName                = tmp id:2023 Jul 19 08:33:06
+Certificate is to be certified until Jul 16 08:33:07 2033 GMT (3650 days)
+
+Write out database with 1 new entries
+Data Base Updated

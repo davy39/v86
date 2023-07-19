@@ -1,0 +1,70 @@
+Certificate:
+    Data:
+        Version: 1 (0x0)
+        Serial Number: 1 (0x1)
+        Signature Algorithm: sha512WithRSAEncryption
+        Issuer: C=US, ST=CA, O=Open vSwitch, OU=controllerca, CN=OVS controllerca CA Certificate (2023 Jul 19 08:33:04)
+        Validity
+            Not Before: Jul 19 08:33:04 2023 GMT
+            Not After : Jul 16 08:33:04 2033 GMT
+        Subject: C=US, ST=CA, O=Open vSwitch, OU=controllerca, CN=OVS controllerca CA Certificate (2023 Jul 19 08:33:04)
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:bf:03:8a:15:07:06:a6:9a:d8:74:79:c2:46:3e:
+                    7a:89:8f:5f:10:92:01:0d:c1:5a:79:d6:f7:09:ad:
+                    ad:33:66:80:e8:82:17:d5:88:0c:a5:1b:e2:9f:57:
+                    18:35:2b:25:5d:5e:09:f3:ee:54:9b:f0:72:f5:a3:
+                    2f:55:d2:79:d0:ca:53:a3:14:34:ea:1f:5f:8b:ee:
+                    12:19:3e:fe:db:8d:d8:0a:9b:20:df:39:20:97:8d:
+                    9b:35:50:2c:da:c9:a1:f0:62:5c:76:90:36:79:ca:
+                    6d:2d:54:09:40:9a:77:fc:d3:b8:ce:88:1a:d6:45:
+                    58:ce:ba:5f:f7:8c:e8:9e:90:6a:f4:49:c9:e1:63:
+                    40:d0:17:a2:0e:74:0f:04:ba:5c:f7:11:13:88:2c:
+                    d7:c9:e3:53:b1:5b:49:67:6b:2d:e9:1b:71:0d:bb:
+                    c9:a8:41:fd:f9:ba:a4:b3:26:b2:8f:b9:94:56:c7:
+                    ca:9e:aa:74:3e:db:18:fc:f3:04:6f:64:17:a6:c4:
+                    05:b7:fa:de:90:5e:45:2a:5c:f7:91:1e:35:2d:c5:
+                    c0:5a:7c:67:6f:c1:da:f8:d4:d1:56:79:05:d3:f7:
+                    99:ae:30:f5:5b:c7:a8:f9:83:29:1b:41:83:c0:f8:
+                    af:79:63:2c:b3:aa:5c:54:56:ce:a1:28:79:15:77:
+                    77:19
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: sha512WithRSAEncryption
+         30:af:18:d9:07:85:ff:8b:67:21:44:7e:cb:55:bd:27:96:38:
+         4e:78:e3:45:4c:d8:70:f0:0c:0d:c7:7c:4d:df:f0:84:44:ef:
+         da:0b:fc:7a:54:3f:74:34:3f:bc:35:36:85:ee:d3:1b:7b:8f:
+         60:b7:17:6c:59:06:05:7f:66:69:36:6d:77:42:ca:23:77:b0:
+         b5:49:c4:43:e9:b1:10:ac:1e:37:85:4e:68:08:2c:54:08:98:
+         5d:32:10:2b:6b:2b:62:ae:94:bf:12:b1:45:6e:d8:9d:c0:bc:
+         f7:94:f1:e7:87:3f:7f:d9:4f:b7:9e:5e:b6:f1:99:59:02:52:
+         f2:28:a0:62:84:94:84:a3:12:98:9e:a0:3a:de:18:fb:71:0d:
+         e3:8d:bf:24:a1:de:b9:ef:19:67:5b:25:18:1b:fc:d5:ee:c8:
+         e2:79:5f:31:ec:51:ce:3a:d0:e7:78:4f:3e:11:b9:e8:02:27:
+         34:6c:72:97:52:40:9c:c5:ea:b6:93:f7:2d:85:76:94:d4:dc:
+         80:fe:9f:f0:a3:ed:d4:86:2b:45:08:c7:eb:b5:47:91:01:5a:
+         6a:c0:12:7f:1d:38:6f:05:53:6b:8b:a9:a4:79:3f:16:aa:05:
+         62:58:6c:c3:d5:79:26:c7:fa:b0:e9:d9:74:21:db:a2:67:27:
+         85:8e:7a:18
+-----BEGIN CERTIFICATE-----
+MIIDiDCCAnACAQEwDQYJKoZIhvcNAQENBQAwgYkxCzAJBgNVBAYTAlVTMQswCQYD
+VQQIDAJDQTEVMBMGA1UECgwMT3BlbiB2U3dpdGNoMRUwEwYDVQQLDAxjb250cm9s
+bGVyY2ExPzA9BgNVBAMMNk9WUyBjb250cm9sbGVyY2EgQ0EgQ2VydGlmaWNhdGUg
+KDIwMjMgSnVsIDE5IDA4OjMzOjA0KTAeFw0yMzA3MTkwODMzMDRaFw0zMzA3MTYw
+ODMzMDRaMIGJMQswCQYDVQQGEwJVUzELMAkGA1UECAwCQ0ExFTATBgNVBAoMDE9w
+ZW4gdlN3aXRjaDEVMBMGA1UECwwMY29udHJvbGxlcmNhMT8wPQYDVQQDDDZPVlMg
+Y29udHJvbGxlcmNhIENBIENlcnRpZmljYXRlICgyMDIzIEp1bCAxOSAwODozMzow
+NCkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/A4oVBwammth0ecJG
+PnqJj18QkgENwVp51vcJra0zZoDoghfViAylG+KfVxg1KyVdXgnz7lSb8HL1oy9V
+0nnQylOjFDTqH1+L7hIZPv7bjdgKmyDfOSCXjZs1UCzayaHwYlx2kDZ5ym0tVAlA
+mnf807jOiBrWRVjOul/3jOiekGr0ScnhY0DQF6IOdA8Eulz3EROILNfJ41OxW0ln
+ay3pG3ENu8moQf35uqSzJrKPuZRWx8qeqnQ+2xj88wRvZBemxAW3+t6QXkUqXPeR
+HjUtxcBafGdvwdr41NFWeQXT95muMPVbx6j5gykbQYPA+K95YyyzqlxUVs6hKHkV
+d3cZAgMBAAEwDQYJKoZIhvcNAQENBQADggEBADCvGNkHhf+LZyFEfstVvSeWOE54
+40VM2HDwDA3HfE3f8IRE79oL/HpUP3Q0P7w1NoXu0xt7j2C3F2xZBgV/Zmk2bXdC
+yiN3sLVJxEPpsRCsHjeFTmgILFQImF0yECtrK2KulL8SsUVu2J3AvPeU8eeHP3/Z
+T7eeXrbxmVkCUvIooGKElISjEpieoDreGPtxDeONvySh3rnvGWdbJRgb/NXuyOJ5
+XzHsUc460Od4Tz4RuegCJzRscpdSQJzF6raT9y2FdpTU3ID+n/Cj7dSGK0UIx+u1
+R5EBWmrAEn8dOG8FU2uLqaR5PxaqBWJYbMPVeSbH+rDp2XQh26JnJ4WOehg=
+-----END CERTIFICATE-----

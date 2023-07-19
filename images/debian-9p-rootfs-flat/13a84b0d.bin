@@ -1,0 +1,9 @@
+6c603e31549eb73124d6b546a93c02cc  lib/systemd/system/openvswitch-nonetwork.service
+1edd0233adf349fd972bd9e1734c8187  lib/systemd/system/openvswitch-switch.service
+d4e5c2b9c443468dfc845bab7fe7bfdf  usr/share/bash-completion/completions/ovs-vsctl
+d99e83da0d5446fa49e609a56bf67a1d  usr/share/doc/openvswitch-switch/README.Debian.gz
+f36e1792c30701395de33d72d9852dcb  usr/share/doc/openvswitch-switch/changelog.Debian.gz
+9312700e80da8563d12587762d0760a5  usr/share/doc/openvswitch-switch/copyright
+150683908e88ec010efa3dc913e362b6  usr/share/openvswitch/scripts/ifupdown.sh
+167668db26d5b29ec1469413b12d9bbe  usr/share/openvswitch/switch/default.template
+bd07977ffcf65647296ebad86cf6e5ec  usr/share/openvswitch/vswitch.ovsschema
