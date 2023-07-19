@@ -12,8 +12,9 @@ window.onload = function()
         memory_size: 512 * 1024 * 1024,
         vga_memory_size: 8 * 1024 * 1024,
         screen_container: document.getElementById("screen_container"),
-        initial_state: { url: "../images/debian-state-base.bin" },
+        initial_state: { url: "../images/debian-state-base.bin.zst" },
         filesystem: { baseurl: "../images/debian-9p-rootfs-flat/" },
+        network_relay_url: "wss://relay.widgetry.org/",
         autostart: true,
     });
 };

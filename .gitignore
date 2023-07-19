@@ -1,3 +1,4 @@
+debian-state-base.bin
 *.swp
 *.swo
 tests/qemu/test-i386
@@ -5,12 +6,11 @@ tests/jit-paging/test-jit
 *.map
 build/
 closure-compiler/
-images/
 *.bak
 *.orig
 *.wasm
 *.o
-*.bin
+*.tar
 *.img
 *.fixture
 *.fuse_hidden*

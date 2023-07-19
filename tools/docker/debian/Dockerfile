@@ -1,9 +1,15 @@
 FROM i386/debian:buster
 
 ENV DEBIAN_FRONTEND noninteractive
+ENV LANG fr_FR.UTF-8
+ENV LC_ALL fr_FR.UTF-8
+ENV LANGUAGE fr_FR.UTF-8
 
 RUN apt update && \
-    apt --yes --no-install-recommends install \
+        apt --yes --no-install-recommends install \
+        console-setup-mini \
+        hexedit nano \
+        #mininet openvswitch-switch openvswitch-testcontroller\
         linux-image-686 grub2 systemd \
         libterm-readline-perl-perl \
         gcc make libc6-dev \
@@ -23,9 +29,9 @@ RUN apt update && \
         mesa-utils libgl1-mesa-dri \
     && \
     touch /root/.Xdefaults && \
-    echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen && \
+    echo "fr_FR.UTF-8 UTF-8" >> /etc/locale.gen && \
     locale-gen && \
-    echo 'LANG="en_US.UTF-8"' > /etc/default/locale && \
+    echo 'LANG="fr_FR.UTF-8"' > /etc/default/locale && \
     chsh -s /bin/bash && \
     echo "root:root" | chpasswd && \
     mkdir -p /etc/systemd/system/serial-getty@ttyS0.service.d/ && \
@@ -53,6 +59,9 @@ COPY logind.conf /etc/systemd/logind.conf
 #COPY xinitrc /root/.xinitrc
 COPY xorg.conf /etc/X11/
 COPY networking.sh /root/
+RUN chmod +x /root/networking.sh
+COPY keyboard /etc/default/
+COPY crackme /root/crackme
 
 COPY boot-9p /etc/initramfs-tools/scripts/boot-9p
 
